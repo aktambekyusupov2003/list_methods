@@ -13,5 +13,5 @@ List func(List fruits, String x) {
 }
 
 void main() {
-  print(func(['olma', 'qulupnay', 'nok'], 'uzum'));
+  print(func(['olma', 'qulupnay', 'nok'], 'uzm'));
 }
