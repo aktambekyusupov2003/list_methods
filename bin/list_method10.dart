@@ -7,4 +7,22 @@
         list: return answer
 */
 
-void main() {}
+ist func(List list1) {
+  int one = 0;
+  int zero = 0;
+  List c = [];
+  for (int s = 0; s < list1.length; s++) {
+    if (list1[s] == 0) {
+      zero++;
+    } else {
+      one++;
+    }
+  }
+  c.add(one);
+  c.add(zero);
+  return c;
+}
+
+void main() {
+  print(func([2, 0, 2, 0, 2, 0, 2, 2]));
+}
