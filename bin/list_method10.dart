@@ -7,7 +7,7 @@
         list: return answer
 */
 
-ist func(List list1) {
+List func(List list1) {
   int one = 0;
   int zero = 0;
   List c = [];
