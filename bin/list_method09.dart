@@ -7,11 +7,11 @@
         list: return answer
 */
 
-List func(List fruits){
-  List a=[];
-  int c=0;
-  for(int b=0; b<fruits.length; b++){
-    if(fruits[b]=='apple'){
+List func(List fruits) {
+  List a = [];
+  int c = 0;
+  for (int b = 0; b < fruits.length; b++) {
+    if (fruits[b] == 'apple') {
       a.add(b);
       c++;
     }
@@ -21,6 +21,5 @@ List func(List fruits){
 }
 
 void main() {
-  print(func(['apple','arbuz','apple','apple']));
+  print(func(['olma', 'tarbuz', 'olma', 'olma']));
 }
-
