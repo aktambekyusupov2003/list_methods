@@ -6,12 +6,13 @@
     Returns:
         int: return answer
 */
-int func(List Fruits) {
-  int b = 0;
-  for (int a = 0; a < Fruits.length; a++) {
-    if (Fruits[a] == 'olma') {
+int func(List Fruits){
+  int b=0;
+if(int a=0; a<Fruits.length; a++){
+    if(Fruits[a]=='apple'){
       b++;
     }
+
   }
   return b;
 }
