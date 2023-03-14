@@ -7,4 +7,14 @@
         list: return answer
 */
 
-void main() {}
+List func(List fruits) {
+  int b = fruits.length;
+  for (int a = 0; a < b; a++) {
+    fruits.remove('olma');
+  }
+  return fruits;
+}
+
+void main() {
+  print(func(['olma', 'olma', 'olma']));
+}
