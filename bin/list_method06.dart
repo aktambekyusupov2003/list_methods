@@ -6,17 +6,19 @@
     Returns:
         int: return answer
 */
-int func(List Fruits){
-  int b=0;
-if(int a=0; a<Fruits.length; a++){
-    if(Fruits[a]=='apple'){
+int func(List Fruits) {
+  int i = 0;
+  int b = 0;
+  while (i < Fruits.length) {
+    if (Fruits[i] == 'apple') {
       b++;
     }
-
+    i++;
   }
   return b;
 }
 
 void main() {
-  print(func(['apple', 'strovberry', 'arbuz', 'mango', 'apple', 'apple']));
+  print(func(
+  ['apple', 'strovberry', 'arbuz', 'mango', 'apple', 'apple', 'apple']));
 }
