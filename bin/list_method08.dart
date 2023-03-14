@@ -16,5 +16,5 @@ List func(List fruits) {
 }
 
 void main() {
-  print(func(['olma', 'olma', 'olma']));
+  print(func(['shaftoli', 'olma', 'olcha', 'nok']));
 }
